@@ -165,6 +165,13 @@ declare module 'astro:content' {
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".mdx"] };
+"reference/docker HA windows.md": {
+	id: "reference/docker HA windows.md";
+  slug: "reference/docker-ha-windows";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
 "reference/docker.md": {
 	id: "reference/docker.md";
   slug: "reference/docker";
@@ -175,6 +182,13 @@ declare module 'astro:content' {
 "reference/leaf.md": {
 	id: "reference/leaf.md";
   slug: "reference/leaf";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"reference/lxc.md": {
+	id: "reference/lxc.md";
+  slug: "reference/lxc";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
