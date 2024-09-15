@@ -1,5 +1,5 @@
 ---
-title: RSS feed WordPress for Ukr.net
+title: Custom base RSS feed for WordPress
 ---
 
 Set UTC +3 time zone
