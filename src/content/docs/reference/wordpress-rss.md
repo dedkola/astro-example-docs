@@ -62,3 +62,21 @@ echo '<?xml version="1.0" encoding="UTF-8" ?>';
 </channel>
 </rss>
 ```
+
+Creteate a new feed custom.pnpg file in the theme folder.
+function.php:
+
+```
+add_action('rss2_item', 'add_featured_image_enclosure_to_feed');
+//rss
+
+function custom_feed_init() {
+    add_feed('custom', 'generate_custom_feed');
+}
+add_action('init', 'custom_feed_init');
+
+function generate_custom_feed() {
+    get_template_part('custom');
+}
+
+```
