@@ -1,5 +1,5 @@
 ---
-title: Custom RSS feed for Wordpress
+title: RSS feed Wordpress for Ukr.net
 ---
 
 
