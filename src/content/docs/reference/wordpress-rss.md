@@ -2,7 +2,7 @@
 title: RSS feed WordPress for Ukr.net
 ---
 
-
+Set UTC +3 time zone
 ```
 <?php
 header('Content-Type: application/rss+xml; charset=UTF-8');
@@ -67,8 +67,7 @@ Creteate a new feed custom.pnpg file in the theme folder.
 function.php:
 
 ```
-add_action('rss2_item', 'add_featured_image_enclosure_to_feed');
-//rss
+
 
 function custom_feed_init() {
     add_feed('custom', 'generate_custom_feed');
