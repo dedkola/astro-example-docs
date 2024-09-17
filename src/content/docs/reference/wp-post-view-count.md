@@ -1,4 +1,3 @@
-
 ---
 title: WordPress - wp_postmeta for specific post id
 ---
