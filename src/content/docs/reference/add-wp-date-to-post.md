@@ -1,4 +1,3 @@
-
 ---
 title: WordPress rss date time
 ---
