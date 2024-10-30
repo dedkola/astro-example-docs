@@ -165,6 +165,27 @@ declare module 'astro:content' {
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".mdx"] };
+"reference/add-wp-date-to-post.md": {
+	id: "reference/add-wp-date-to-post.md";
+  slug: "reference/add-wp-date-to-post";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"reference/adguard-best-dns.md": {
+	id: "reference/adguard-best-dns.md";
+  slug: "reference/adguard-best-dns";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"reference/apple-controller.md": {
+	id: "reference/apple-controller.md";
+  slug: "reference/apple-controller";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
 "reference/docker HA windows.md": {
 	id: "reference/docker HA windows.md";
   slug: "reference/docker-ha-windows";
@@ -175,6 +196,13 @@ declare module 'astro:content' {
 "reference/docker.md": {
 	id: "reference/docker.md";
   slug: "reference/docker";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"reference/grep-current-network-connections.md": {
+	id: "reference/grep-current-network-connections.md";
+  slug: "reference/grep-current-network-connections";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
@@ -196,6 +224,48 @@ declare module 'astro:content' {
 "reference/mysql.md": {
 	id: "reference/mysql.md";
   slug: "reference/mysql";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"reference/tar-untar.md": {
+	id: "reference/tar-untar.md";
+  slug: "reference/tar-untar";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"reference/ubuntu-nala.md": {
+	id: "reference/ubuntu-nala.md";
+  slug: "reference/ubuntu-nala";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"reference/unraid-base-containers.md": {
+	id: "reference/unraid-base-containers.md";
+  slug: "reference/unraid-base-containers";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"reference/wordpress-limit-posts.md": {
+	id: "reference/wordpress-limit-posts.md";
+  slug: "reference/wordpress-limit-posts";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"reference/wordpress-rss.md": {
+	id: "reference/wordpress-rss.md";
+  slug: "reference/wordpress-rss";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"reference/wp-post-view-count.md": {
+	id: "reference/wp-post-view-count.md";
+  slug: "reference/wp-post-view-count";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
