@@ -2,7 +2,7 @@
 title: Adguard best DNS servers 
 ---
 
-```
+```bash
 94.140.14.14
 94.140.15.15
 8.8.8.8

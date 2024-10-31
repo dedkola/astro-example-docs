@@ -6,7 +6,6 @@ On Windows   [Home Assistant](https://www.home-assistant.io/) from Docker Deskto
 
 ### Expose port from CLI
 
-```
+```bash
 docker run -d -p 8123:8123 --privileged --volume "C:\homeassistant:/config" --name homeassistant -e "TZ=Europe/Paris" ghcr.io/home-assistant/home-assistant:stable
 ```
-
